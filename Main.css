@@ -1,0 +1,104 @@
+
+.homeimage {
+	width: 100%
+}
+
+.homeLogo {
+	height: 10%;
+	width: 10%;
+}
+
+.welcome{
+	font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+}
+
+.welcome.paris{
+    color: hotpink;
+}
+
+.welcome.london{
+    color: #CF142B;
+}
+
+.welcome.tokyo{
+    color: #BC002D;
+}
+
+.welcome.sydney{
+    color: #FFCD00
+}
+
+.welcome.newYork{
+    color: navy;
+}
+.cityInfo{
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.cityInfo.paris{
+    background-color: red;
+}
+
+.cityInfo.london{
+    background-color: #00247D;
+}
+.cityInfo.home{
+    background-color: aqua;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.cityInfo.tokyo{
+    outline: 4px solid black;
+}
+
+.cityInfo.sydney{
+    background-color: #00843D;
+}
+
+.cityInfo.newYork{
+    background-color: orangered;
+}
+p.paris{
+    color: pink;
+}
+p.london{
+    color: white;
+}
+
+p.tokyo{
+    color: #BC002D;
+}
+
+p.sydney{
+    color: #FFCD00
+}
+
+p.newYork{
+    color: navy;
+}
+
+.homePagePic{
+    border: green 4px solid;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+a.navbarcolor{
+    color: white;
+}
+
+.hovered{
+    transition: 0.8s;
+}
+
+.hovered:hover{
+    position: relative;
+    z-index: 9999;
+    transform: scale(2) rotate(360deg);
+}
